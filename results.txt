@@ -1,0 +1,155 @@
+/apps/synopsys/VCSMX_NEW/bin/vcs
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 24 (Twenty Four)' is not supported on 'x86_64'
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '4.8.4-200.fc24.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Mon Nov 14 15:20:00 2016
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'tbbt.sv'
+Parsing included file 'btclass.sv'.
+Back to file 'tbbt.sv'.
+Top Level Modules:
+       testbench
+TimeScale is 1 ns / 10 ps
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so SIM_l.o 5NrI_d.o 5NrIB_d.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_2.so --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc0.so   pre_vcsobj_1_1.so pre_vcsobj_1_2.so  rmapats_mop.o rmapats.o rmar.o           /apps/synopsys/VCSMX_NEW/linux/lib/libzerosoft_rt_stubs.so /apps/synopsys/VCSMX_NEW/linux/lib/libvirsim.so /apps/synopsys/VCSMX_NEW/linux/lib/librterrorinf.so /apps/synopsys/VCSMX_NEW/linux/lib/libsnpsmalloc.so    /apps/synopsys/VCSMX_NEW/linux/lib/libvcsnew.so /apps/synopsys/VCSMX_NEW/linux/lib/libuclinative.so   -Wl,-whole-archive /apps/synopsys/VCSMX_NEW/linux/lib/libvcsucli.so -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /apps/synopsys/VCSMX_NEW/linux/lib/vcs_save_restore_new.o /apps/synopsys/VCSMX_NEW/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .138 seconds to compile + .016 seconds to elab + .108 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Nov 14 15:20 2016
+
+
+-------  Ascending 
+                 224
+                 426
+                 874
+                1093
+                1236
+                1418
+                1535
+                1776
+                2013
+                2165
+                2270
+                2547
+                2811
+                2885
+                3053
+                3060
+                3472
+                3846
+                3990
+                4351
+                4575
+                4756
+                5712
+                6249
+                6386
+                6419
+                6478
+                7267
+                7645
+                8362
+                8748
+                9106
+               12385
+               15525
+               17221
+               19063
+               20034
+               26987
+               41655
+               65731
+               67172
+              100040
+              123884
+             1416748
+
+
+-------  Descending
+              123884
+               67172
+               49967
+               41655
+               31219
+               26987
+               21474
+               20041
+               20034
+               19239
+               19063
+               17221
+               15525
+               12385
+                7834
+                7645
+                7271
+                7267
+                6483
+                6478
+                6419
+                5712
+                5261
+                4756
+                4575
+                4351
+                3990
+                3846
+                3472
+                3259
+                3127
+                3060
+                2964
+                2917
+                2885
+                2811
+                2640
+                2592
+                2547
+                2237
+                2189
+                2165
+                1934
+                1776
+                1535
+                1418
+                1236
+                1093
+                 874
+                 656
+                 648
+                 537
+                 466
+                 426
+                 285
+                 224
+All done
+$finish called from file "tbbt.sv", line 22.
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 00 ps
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Mon Nov 14 15:20:02 2016
